@@ -1,0 +1,39 @@
+<html>
+    <head>
+     
+        <script>    
+            var units=102;
+           var bill;
+           
+            if(units<=100)
+            {
+                bill=units*2;
+                document.writeln("The generated bill is"+bill+"<br>")
+            }
+            else if((units>=101 && units<=200))
+            {
+                bill=200+((units-100)*3.5)
+                document.writeln("The generated bill is"+bill+"<br>")
+            }
+            else if((units>=201 && units<=300))
+            {
+                bill=546.5+((units-200)*5.5)
+                document.writeln("The generated bill is"+bill+"<br>")
+            }
+            else if((units>=201 && units<=300))
+            {
+                bill=1091+((units-300)*5.5)
+                document.writeln("The generated bill is"+bill+"<br>")
+            }
+           
+            else if(units>=401)
+            {
+                bill=1833.5+((units-400)*12)
+                document.writeln("The generated bill is"+bill)
+            }
+           
+
+
+        </script>
+    </head>
+</html>
